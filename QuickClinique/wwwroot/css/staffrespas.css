@@ -1,4 +1,4 @@
-﻿/* QuickClinic Staff Registration Styles - Matched with Login */
+﻿/* QuickClinic Staff Reset Password Styles - Matched with Login */
 * {
     margin: 0;
     padding: 0;
@@ -197,29 +197,19 @@ body {
     color: #333;
     margin-bottom: 8px;
     font-weight: 600;
+    text-align: center;
 }
 
 .form-subtitle {
     color: #666;
     margin-bottom: 30px;
     font-size: 0.95rem;
+    text-align: center;
 }
 
 .auth-form {
     width: 100%;
 }
-
-/* Form Row for First Name and Last Name */
-.form-row {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-
-    .form-row .input-group {
-        flex: 1;
-        margin-bottom: 0;
-    }
 
 .input-group {
     position: relative;
@@ -276,14 +266,6 @@ body {
     .toggle-password:hover {
         opacity: 1;
     }
-
-.input-hint {
-    display: block;
-    margin-top: 5px;
-    font-size: 0.8rem;
-    color: #666;
-    font-style: italic;
-}
 
 /* Button Styles */
 .submit-btn {
@@ -395,26 +377,6 @@ body {
     }
 }
 
-/* Back to Login */
-.back-to-login {
-    text-align: center;
-    margin-top: 25px;
-    color: #666;
-    font-size: 0.95rem;
-}
-
-.back-link {
-    color: #4ECDC4;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-    .back-link:hover {
-        color: #44A08D;
-        text-decoration: underline;
-    }
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
@@ -434,11 +396,6 @@ body {
 
     .form-panel {
         padding: 30px 20px;
-    }
-
-    .form-row {
-        flex-direction: column;
-        gap: 0;
     }
 
     .medical-icons {
